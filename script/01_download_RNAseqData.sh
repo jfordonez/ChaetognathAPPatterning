@@ -7,17 +7,17 @@
 
 module load sratoolkit/3.2.0
 
-SRA_ID=$1
+DB_NAME=$1
 
-if [ -z "${SRA_ID}" ]; then
-  echo "Usage: $0 SRR_ID"
+if [ -z "${DB_NAME}" ]; then
+  echo "Usage: $0 DB_NAME"
   exit 1
 fi
 
-fastq-dump \
-  --defline-seq '@$sn[_$rn]/$ri' \
-  --split-files \
-  ${SRA_ID}
+diamond makedb \
+  --in $1 \
+  --db spiralianHox \
+  --threads 6
   
 
   
