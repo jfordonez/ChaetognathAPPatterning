@@ -1,5 +1,5 @@
 # ChaetognathAPPatterning
-Scripts used to download, assemble, and annotate transcriptomes for Hox gene mining in public SRA datasets
+Scripts used to download, assemble, and annotate transcriptomes for Hox gene mining in public SRA datasets. These scripts were used for the paper "Anterior–posterior patterning in the chaetognath Spadella cephaloptera: insights into the evolution of the bilaterian nervous system and postanal tail" submitted to Comms. Bio.
 
 # Hox gene mining pipeline from public transcriptomes
 
