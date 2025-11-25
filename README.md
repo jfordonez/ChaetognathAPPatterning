@@ -2,7 +2,7 @@
 
 Scripts used to download, assemble, and annotate transcriptomes for Hox gene mining in public SRA datasets. These scripts were used for the paper:
 
-**“Anterior–posterior patterning in the chaetognath *Spadella cephaloptera*: insights into the evolution of the bilaterian nervous system and postanal tail”** (submitted to Communications Biology).
+**“Anterior-posterior patterning in the chaetognath Spadella cephaloptera informs bilaterian nervous system and tail evolution”** (submitted to Communications Biology).
 
 ---
 
